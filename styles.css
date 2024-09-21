@@ -1,0 +1,255 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family: sans-serif;
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    background-color: #1D3557;
+    color: #A8DADC ;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+header h1{
+    margin-bottom: 5px;
+}
+header p{
+    margin-top: 0px;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    color:#ffffff;
+    margin-right: 25px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+} 
+a:hover{
+    color: #A8DADC;
+}
+
+.about-me{
+    position: relative;
+    margin-top: 30px;
+    padding: 3px 15px 20px 15px;
+    border-radius: 10px;
+    color: #1D3557 ;
+    background-color: #A8DADC;
+    text-align:justify;
+}
+.image1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.image{
+    text-align: center;
+}
+.task-managmement{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    color: #1D3557;
+    background-color: #c9e7e8;
+    padding: 3px 10px 0px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.task-managmement h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.task-managmement p{
+    margin-top: 0px;
+}
+
+.skills-div{
+    margin-top: 30px;
+    padding: 3px 15px 20px 15px;
+    height: 200px;
+    border-radius: 10px;
+    color: #1D3557 ;
+    text-align: justify;
+    background-image: url("images/skills.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.skills-list{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.6);
+    /* opacity: 0.6;*/
+    margin: 0px 10px 0px 10px;
+    padding: 50px 10px 50px 10px;
+    border-radius: 10px;
+}
+.skill{
+    background-color: #c9e7e8;
+    color: #1D3557;
+    display: inline;
+    margin: 0px 10px 0px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.skill:hover{
+    cursor: pointer;
+    background-color: #1D3557;
+    color: #c9e7e8;
+    position: relative;
+    bottom: 12px;
+}
+
+.projects{
+    margin-top: 30px;
+    padding: 3px 15px 20px 15px;
+    border-radius: 10px;
+    color: #1D3557 ;
+    background-color: #A8DADC;
+    text-align: justify;
+}
+.project1-content{
+    width: 200px;
+    height: 200px;
+    color: #1D3557;
+    background-color: #c9e7e8;
+    padding: 3px 10px 0px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.project1-content h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.project1-content p{
+    margin-top: 0px;
+}
+.project2-content{
+    width: 200px;
+    height: 250px;
+    color: #1D3557;
+    background-color: #c9e7e8;
+    padding: 3px 10px 0px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.project2-content h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.project2-content p{
+    margin-top: 0px;
+}
+.project3-content{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 100%;
+    height: 250px;
+    color: #1D3557;
+    background-color: #c9e7e8;
+    padding: 3px 10px 0px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.project3-content h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.project3-content p{
+    margin-top: 0px;
+}
+
+.contact{
+    margin-top: 30px;
+    padding: 3px 15px 20px 15px;
+    border-radius: 10px;
+    color: #1D3557 ;
+    background-color: #A8DADC;
+    text-align: justify;
+}
+form {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+form label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1D3557;
+}
+form input[type="text"],form input[type="email"], form textarea {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.submit-button {
+    background-color: #c9e7e8;
+    color: #1D3557;
+    border: 1px solid #1D3557;
+    padding: 10px 20px;
+    font-size: 16px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #1D3557;
+    color: #c9e7e8;
+}
+
+footer {
+    background-color: #1D3557;
+    color: #A8DADC ;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #A8DADC;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #c9e7e8;
+    color: #0e1825;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#backToTop:hover {
+    background-color: #0e1825;
+    color: #c9e7e8;
+}
